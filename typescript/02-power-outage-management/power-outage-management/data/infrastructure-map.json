@@ -1,0 +1,58 @@
+{
+  "substations": [
+    {
+      "id": "SUB_001",
+      "name": "Main Street Substation", 
+      "location": { "latitude": 40.7589, "longitude": -73.9851 },
+      "voltage": "138kV",
+      "capacity": "200MVA",
+      "status": "operational",
+      "downstream_equipment": ["TRANS_001", "TRANS_002", "LINE_001"]
+    },
+    {
+      "id": "SUB_002",
+      "name": "Riverside Substation", 
+      "location": { "latitude": 40.7128, "longitude": -74.0060 },
+      "voltage": "69kV",
+      "capacity": "100MVA",
+      "status": "operational",
+      "downstream_equipment": ["TRANS_003"]
+    }
+  ],
+  "transformers": [
+    {
+      "id": "TRANS_001",
+      "substation_id": "SUB_001",
+      "location": { "latitude": 40.7614, "longitude": -73.9776 },
+      "voltage": "13.8kV", 
+      "customers_served": 1200,
+      "critical_customers": ["CUST_001"]
+    },
+    {
+      "id": "TRANS_002",
+      "substation_id": "SUB_001",
+      "location": { "latitude": 40.7500, "longitude": -73.9800 },
+      "voltage": "13.8kV", 
+      "customers_served": 800,
+      "critical_customers": []
+    },
+    {
+      "id": "TRANS_003",
+      "substation_id": "SUB_002",
+      "location": { "latitude": 40.7000, "longitude": -74.0000 },
+      "voltage": "13.8kV", 
+      "customers_served": 500,
+      "critical_customers": []
+    }
+  ],
+  "power_lines": [
+    {
+      "id": "LINE_001",
+      "from_equipment": "SUB_001",
+      "to_equipment": "TRANS_003",
+      "length_km": 12.5,
+      "customers_served": 8500,
+      "vulnerability": "high_wind"
+    }
+  ]
+}

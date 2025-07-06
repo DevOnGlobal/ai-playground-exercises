@@ -1,0 +1,64 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST_001",
+      "name": "Metropolitan Hospital",
+      "customer_type": "CRITICAL_INFRASTRUCTURE", 
+      "priority_level": "CRITICAL",
+      "service_address": "123 Health Ave, New York, NY",
+      "latitude": 40.7614,
+      "longitude": -73.9776,
+      "communication_preferences": ["PHONE", "SMS", "EMAIL"],
+      "backup_power": true,
+      "backup_duration_hours": 24,
+      "contact_phone": "555-0001", 
+      "contact_email": "ops@metrohosp.org",
+      "special_requirements": ["life_support_equipment", "emergency_services"]
+    },
+    {
+      "customer_id": "CUST_002",
+      "name": "ABC Manufacturing",
+      "customer_type": "COMMERCIAL",
+      "priority_level": "HIGH",
+      "service_address": "456 Industry St, New York, NY",
+      "latitude": 40.6892,
+      "longitude": -74.0445,
+      "communication_preferences": ["EMAIL", "SMS"],
+      "backup_power": false,
+      "backup_duration_hours": 0,
+      "contact_phone": "555-0002",
+      "contact_email": "facilities@abcmfg.com", 
+      "special_requirements": ["temperature_sensitive_processes"]
+    },
+    {
+      "customer_id": "CUST_003",
+      "name": "Riverside Elementary School",
+      "customer_type": "CRITICAL_INFRASTRUCTURE",
+      "priority_level": "HIGH", 
+      "service_address": "789 Education Blvd, New York, NY",
+      "latitude": 40.7489,
+      "longitude": -73.9680,
+      "communication_preferences": ["EMAIL", "PHONE"],
+      "backup_power": true,
+      "backup_duration_hours": 4,
+      "contact_phone": "555-0003",
+      "contact_email": "admin@riverside-elem.edu",
+      "special_requirements": ["student_safety", "food_refrigeration"]
+    },
+    {
+      "customer_id": "CUST_004", 
+      "name": "Johnson Family Residence",
+      "customer_type": "RESIDENTIAL",
+      "priority_level": "STANDARD",
+      "service_address": "321 Oak Street, New York, NY",
+      "latitude": 40.7556,
+      "longitude": -73.9845,
+      "communication_preferences": ["SMS"],
+      "backup_power": false,
+      "backup_duration_hours": 0,
+      "contact_phone": "555-0004",
+      "contact_email": "mjohnson@email.com",
+      "special_requirements": []
+    }
+  ]
+}

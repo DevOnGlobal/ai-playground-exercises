@@ -1,0 +1,28 @@
+{
+  "customers": [
+    {
+      "id": "CUST_001",
+      "name": "Central Hospital",
+      "priority": "CRITICAL",
+      "segmentId": "GRID_001",
+      "typicalLoadMW": 15,
+      "contractType": "GUARANTEED_SUPPLY"
+    },
+    {
+      "id": "CUST_002",
+      "name": "Tech Data Center",
+      "priority": "COMMERCIAL",
+      "segmentId": "GRID_001",
+      "typicalLoadMW": 25,
+      "contractType": "STANDARD"
+    },
+    {
+      "id": "CUST_003",
+      "name": "Residential Complex A",
+      "priority": "RESIDENTIAL",
+      "segmentId": "GRID_002",
+      "typicalLoadMW": 8,
+      "contractType": "STANDARD"
+    }
+  ]
+}

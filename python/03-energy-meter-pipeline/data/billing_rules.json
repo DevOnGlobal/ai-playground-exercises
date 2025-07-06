@@ -1,0 +1,26 @@
+{
+  "tiers": [
+    {
+      "min_usage": 0,
+      "max_usage": 50,
+      "price_per_unit": 0.10
+    },
+    {
+      "min_usage": 51,
+      "max_usage": 200,
+      "price_per_unit": 0.15
+    },
+    {
+      "min_usage": 201,
+      "max_usage": -1,
+      "price_per_unit": 0.20
+    }
+  ],
+  "taxes": 0.05,
+  "discounts": [
+    {
+      "min_usage": 150,
+      "percentage": 0.10
+    }
+  ]
+}

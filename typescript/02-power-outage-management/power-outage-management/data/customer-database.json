@@ -1,0 +1,69 @@
+{
+  "customers": [
+    {
+      "id": "CUST_001",
+      "name": "Metropolitan Hospital",
+      "type": "CRITICAL_INFRASTRUCTURE",
+      "priority": "CRITICAL",
+      "serviceAddress": "123 Health Ave, New York, NY",
+      "location": { "latitude": 40.7614, "longitude": -73.9776 },
+      "gridSegmentId": "TRANS_001",
+      "communicationPreferences": ["SMS", "EMAIL", "PHONE"],
+      "contactInfo": { "phone": "555-0001", "email": "ops@metrohosp.org" },
+      "hasBackupPower": true,
+      "typicalLoadKW": 2500
+    },
+    {
+      "id": "CUST_002",
+      "name": "Tech Data Center",
+      "type": "COMMERCIAL", 
+      "priority": "HIGH",
+      "serviceAddress": "456 Server St, New York, NY",
+      "location": { "latitude": 40.7505, "longitude": -73.9934 },
+      "gridSegmentId": "TRANS_001",
+      "communicationPreferences": ["EMAIL", "SMS"],
+      "contactInfo": { "phone": "555-0002", "email": "ops@techdc.com" },
+      "hasBackupPower": true,
+      "typicalLoadKW": 5000
+    },
+    {
+      "id": "CUST_003",
+      "name": "Residential Complex A",
+      "type": "RESIDENTIAL",
+      "priority": "MEDIUM", 
+      "serviceAddress": "789 Home Ave, New York, NY",
+      "location": { "latitude": 40.7450, "longitude": -73.9900 },
+      "gridSegmentId": "TRANS_001",
+      "communicationPreferences": ["SMS", "EMAIL"],
+      "contactInfo": { "phone": "555-0003", "email": "manager@residentialA.com" },
+      "hasBackupPower": false,
+      "typicalLoadKW": 500
+    },
+    {
+      "id": "CUST_004",
+      "name": "Small Business Row",
+      "type": "COMMERCIAL",
+      "priority": "MEDIUM",
+      "serviceAddress": "101 Market St, New York, NY",
+      "location": { "latitude": 40.7005, "longitude": -74.0010 },
+      "gridSegmentId": "TRANS_003",
+      "communicationPreferences": ["EMAIL"],
+      "contactInfo": { "email": "info@smallbiz.com" },
+      "hasBackupPower": false,
+      "typicalLoadKW": 150
+    },
+    {
+      "id": "CUST_005",
+      "name": "Residential Home B",
+      "type": "RESIDENTIAL",
+      "priority": "LOW",
+      "serviceAddress": "202 Quiet Ln, New York, NY",
+      "location": { "latitude": 40.7010, "longitude": -74.0020 },
+      "gridSegmentId": "TRANS_003",
+      "communicationPreferences": ["SMS"],
+      "contactInfo": { "phone": "555-0004" },
+      "hasBackupPower": false,
+      "typicalLoadKW": 50
+    }
+  ]
+}

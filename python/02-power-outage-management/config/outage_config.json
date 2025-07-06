@@ -1,0 +1,29 @@
+{
+  "notification_rules": {
+    "CRITICAL_INFRASTRUCTURE": {
+      "delay_minutes": 0,
+      "channels": ["PHONE", "SMS", "EMAIL"],
+      "message_detail": "high",
+      "retry_attempts": 3
+    },
+    "COMMERCIAL": {
+      "delay_minutes": 15,
+      "channels": ["SMS", "EMAIL"],
+      "message_detail": "medium",
+      "retry_attempts": 2
+    },
+    "RESIDENTIAL": {
+      "delay_minutes": 30,
+      "channels": ["SMS"],
+      "message_detail": "low",
+      "retry_attempts": 1
+    }
+  },
+  "valid_status_transitions": {
+    "REPORTED": ["CONFIRMED"],
+    "CONFIRMED": ["ASSIGNED", "RESOLVED"],
+    "ASSIGNED": ["IN_PROGRESS"],
+    "IN_PROGRESS": ["RESOLVED"],
+    "RESOLVED": []
+  }
+}

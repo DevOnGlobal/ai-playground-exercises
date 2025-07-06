@@ -1,0 +1,42 @@
+{
+  "substations": [
+    {
+      "equipment_id": "SUB_001",
+      "name": "Main Street Substation", 
+      "latitude": 40.7589,
+      "longitude": -73.9851,
+      "voltage_level": "138kV",
+      "capacity_mva": 200,
+      "status": "operational",
+      "customers_served": 12500,
+      "backup_available": true,
+      "critical_customers": ["CUST_001", "CUST_003"]
+    },
+    {
+      "equipment_id": "SUB_002",
+      "name": "Downtown Distribution",
+      "latitude": 40.7505,
+      "longitude": -73.9934, 
+      "voltage_level": "13.8kV",
+      "capacity_mva": 50,
+      "status": "operational",
+      "customers_served": 3200,
+      "backup_available": false,
+      "critical_customers": []
+    }
+  ],
+  "power_lines": [
+    {
+      "equipment_id": "LINE_001",
+      "name": "Main Street Feeder",
+      "from_substation": "SUB_001",
+      "to_substation": "SUB_002",
+      "latitude": 40.7547,
+      "longitude": -73.9892,
+      "voltage_level": "13.8kV", 
+      "customers_served": 3200,
+      "line_length_km": 2.5,
+      "max_load_amps": 400
+    }
+  ]
+}

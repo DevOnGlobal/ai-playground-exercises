@@ -1,0 +1,43 @@
+{
+  "segments": [
+    {
+      "id": "GRID_001",
+      "name": "Downtown Commercial District",
+      "maxCapacityMW": 150,
+      "currentLoadMW": 120,
+      "location": { "lat": 40.7128, "lng": -74.0060 },
+      "connectedSegments": ["GRID_002", "GRID_005"],
+      "safetyThresholdPercent": 85,
+      "equipmentStatus": "OPERATIONAL"
+    },
+    {
+      "id": "GRID_002",
+      "name": "Residential North",
+      "maxCapacityMW": 100,
+      "currentLoadMW": 65,
+      "location": { "lat": 40.7589, "lng": -73.9851 },
+      "connectedSegments": ["GRID_001", "GRID_003"],
+      "safetyThresholdPercent": 90,
+      "equipmentStatus": "OPERATIONAL"
+    },
+    {
+      "id": "GRID_003",
+      "name": "Industrial Zone",
+      "maxCapacityMW": 200,
+      "currentLoadMW": 180,
+      "location": { "lat": 40.6892, "lng": -74.0445 },
+      "connectedSegments": ["GRID_002", "GRID_004"],
+      "safetyThresholdPercent": 85,
+      "equipmentStatus": "MAINTENANCE"
+    }
+  ],
+  "connections": [
+    {
+      "fromSegmentId": "GRID_001",
+      "toSegmentId": "GRID_002",
+      "transmissionCapacityMW": 50,
+      "transmissionLossPercentage": 3,
+      "connectionType": "PRIMARY"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "meters": [
+    {
+      "id": "meter1",
+      "type": "smart",
+      "location": "buildingA",
+      "threshold": 100
+    },
+    {
+      "id": "meter2",
+      "type": "legacy",
+      "location": "buildingB"
+    },
+    {
+      "id": "meter3",
+      "type": "smart",
+      "threshold": "invalid"
+    },
+    {
+      "id": "meter4",
+      "type": "smart",
+      "location": "buildingD",
+      "threshold": 50
+    }
+  ]
+}

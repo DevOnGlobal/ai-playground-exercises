@@ -1,0 +1,40 @@
+{
+  "crews": [
+    {
+      "id": "CREW_001",
+      "name": "Alpha Line Team",
+      "specialization": "LINE_WORKER",
+      "skillLevel": "SENIOR",
+      "teamSize": 3,
+      "currentLocation": { "latitude": 40.7505, "longitude": -73.9934, "lastUpdate": "2025-06-29T10:00:00Z" },
+      "status": "AVAILABLE",
+      "shiftEndTime": "2025-06-29T18:00:00Z",
+      "assignedEquipment": ["bucket_truck", "cable_trailer"],
+      "certifications": ["high_voltage", "confined_space"]
+    },
+    {
+      "id": "CREW_002", 
+      "name": "Bravo Tree Service",
+      "specialization": "TREE_REMOVAL",
+      "skillLevel": "EXPERT",
+      "teamSize": 4,
+      "currentLocation": { "latitude": 40.7128, "longitude": -74.0060, "lastUpdate": "2025-06-29T10:00:00Z" },
+      "status": "AVAILABLE",
+      "shiftEndTime": "2025-06-29T20:00:00Z", 
+      "assignedEquipment": ["tree_truck", "chipper", "crane"],
+      "certifications": ["arborist", "heavy_equipment"]
+    },
+    {
+      "id": "CREW_003", 
+      "name": "Charlie Substation Techs",
+      "specialization": "SUBSTATION_TECH",
+      "skillLevel": "JUNIOR",
+      "teamSize": 2,
+      "currentLocation": { "latitude": 40.7600, "longitude": -73.9700, "lastUpdate": "2025-06-29T10:00:00Z" },
+      "status": "AVAILABLE",
+      "shiftEndTime": "2025-06-29T16:00:00Z", 
+      "assignedEquipment": ["multimeter", "insulation_tester"],
+      "certifications": ["substation_safety"]
+    }
+  ]
+}

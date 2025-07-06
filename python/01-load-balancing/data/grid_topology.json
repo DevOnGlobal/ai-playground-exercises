@@ -1,0 +1,56 @@
+{
+  "segments": [
+    {
+      "segment_id": "GRID_001",
+      "name": "Downtown Commercial District",
+      "max_capacity_mw": 150.0,
+      "current_load_mw": 135.0,
+      "latitude": 40.7128,
+      "longitude": -74.0060,
+      "safety_threshold_pct": 85.0,
+      "connected_segments": ["GRID_002", "GRID_005"],
+      "status": "OPERATIONAL",
+      "last_maintenance_date": "2025-05-15T10:00:00Z"
+    },
+    {
+      "segment_id": "GRID_002", 
+      "name": "Residential North Zone",
+      "max_capacity_mw": 75.0,
+      "current_load_mw": 45.0,
+      "latitude": 40.7589,
+      "longitude": -73.9851,
+      "safety_threshold_pct": 80.0,
+      "connected_segments": ["GRID_001", "GRID_003"],
+      "status": "OPERATIONAL"
+    },
+    {
+      "segment_id": "GRID_003",
+      "name": "Industrial South Complex", 
+      "max_capacity_mw": 200.0,
+      "current_load_mw": 180.0,
+      "latitude": 40.6892,
+      "longitude": -74.0445,
+      "safety_threshold_pct": 90.0,
+      "connected_segments": ["GRID_002", "GRID_004"],
+      "status": "OPERATIONAL"
+    }
+  ],
+  "transfer_paths": [
+    {
+      "from_segment_id": "GRID_001",
+      "to_segment_id": "GRID_002",
+      "max_transfer_mw": 50.0,
+      "power_loss_pct": 2.5,
+      "connection_type": "PRIMARY",
+      "status": "ACTIVE"
+    },
+    {
+      "from_segment_id": "GRID_002", 
+      "to_segment_id": "GRID_003",
+      "max_transfer_mw": 40.0,
+      "power_loss_pct": 3.0,
+      "connection_type": "PRIMARY",
+      "status": "ACTIVE"
+    }
+  ]
+}

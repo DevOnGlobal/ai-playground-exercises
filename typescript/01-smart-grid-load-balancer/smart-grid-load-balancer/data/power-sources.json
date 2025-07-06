@@ -1,0 +1,45 @@
+[
+  {
+    "id": "SOLAR_FARM_001",
+    "type": "SOLAR",
+    "name": "Desert Solar Array",
+    "maxCapacityMW": 100,
+    "currentOutputMW": 80,
+    "costPerMWh": 50,
+    "operationalCost": 1000,
+    "reliability": 0.9,
+    "startupTimeMinutes": 0,
+    "shutdownTimeMinutes": 0,
+    "status": "ONLINE",
+    "weatherImpactFactor": 0.8,
+    "forecastReliability": 0.95
+  },
+  {
+    "id": "WIND_FARM_001",
+    "type": "WIND",
+    "name": "Coastal Wind Farm",
+    "maxCapacityMW": 120,
+    "currentOutputMW": 90,
+    "costPerMWh": 60,
+    "operationalCost": 1200,
+    "reliability": 0.85,
+    "startupTimeMinutes": 0,
+    "shutdownTimeMinutes": 0,
+    "status": "ONLINE",
+    "weatherImpactFactor": 0.7,
+    "forecastReliability": 0.9
+  },
+  {
+    "id": "COAL_PLANT_001",
+    "type": "COAL",
+    "name": "Central Coal Plant",
+    "maxCapacityMW": 500,
+    "currentOutputMW": 450,
+    "costPerMWh": 80,
+    "operationalCost": 5000,
+    "reliability": 0.98,
+    "startupTimeMinutes": 120,
+    "shutdownTimeMinutes": 60,
+    "status": "ONLINE"
+  }
+]

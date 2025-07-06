@@ -1,0 +1,34 @@
+{
+  "meters": [
+    {
+      "id": 1,
+      "type": "residential",
+      "location": {
+        "address": "123 Main St",
+        "city": "Anytown",
+        "zip": "12345"
+      }
+    },
+    {
+      "id": 2,
+      "type": "commercial",
+      "location": {
+        "address": "456 Oak Ave",
+        "city": "Anytown",
+        "zip": "12345"
+      }
+    },
+    {
+      "id": 3,
+      "type": "industrial",
+      "location": {
+        "address": "789 Pine Ln",
+        "city": "Anytown"
+      }
+    },
+    {
+      "id": 4,
+      "type": "residential"
+    }
+  ]
+}

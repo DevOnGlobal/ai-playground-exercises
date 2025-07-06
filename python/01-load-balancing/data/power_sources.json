@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "source_id": "SOLAR_001",
+      "name": "Brooklyn Solar Farm",
+      "source_type": "SOLAR",
+      "max_capacity_mw": 60.0,
+      "current_output_mw": 45.0,
+      "reliability_score": 0.75,
+      "cost_per_mwh": 35.0,
+      "latitude": 40.6782,
+      "longitude": -73.9442,
+      "operational_status": "ONLINE",
+      "weather_dependent": true
+    },
+    {
+      "source_id": "GAS_001",
+      "name": "Manhattan Gas Plant",
+      "source_type": "NATURAL_GAS", 
+      "max_capacity_mw": 200.0,
+      "current_output_mw": 150.0,
+      "reliability_score": 0.95,
+      "cost_per_mwh": 65.0,
+      "latitude": 40.7505,
+      "longitude": -73.9934,
+      "operational_status": "ONLINE",
+      "startup_time_minutes": 30
+    }
+  ]
+}

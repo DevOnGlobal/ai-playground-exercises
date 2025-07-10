@@ -238,7 +238,6 @@ coverage/
 *.sqlitedb
 *.sdb
 *.db-journal
-*.sql
 *.dump
 *.bak
 *.backup

@@ -17,9 +17,14 @@
 You're developing software for an electrical distribution company that needs to balance power loads across different grid segments while preventing overloads and optimizing energy flow from multiple sources (solar, wind, traditional power plants).
 
 ## Setup Instructions
-1.  **Install Dependencies**:
+1.  **Initialize the project**:
+    ```bash
+    npm init -y
+    ```
+2.  **Install Dependencies**:
     ```bash
     npm install
+    npm install typescript @types/node --save-dev
     ```
 2.  **Run the Application**:
     ```bash

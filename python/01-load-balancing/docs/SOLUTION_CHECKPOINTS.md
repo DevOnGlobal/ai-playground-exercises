@@ -4,7 +4,7 @@ This document provides validation steps and success criteria for each task in th
 
 ## General Verification Steps
 
--   **Run `main.py`**: After completing each task, try running `python main.py` from the `04_load_balancing` directory. Observe the console output for any errors or unexpected behavior. The `main.py` script is designed to integrate all components.
+-   **Run `main.py`**: After completing each task, try running `python main.py` from the `01_load_balancing` directory. Observe the console output for any errors or unexpected behavior. The `main.py` script is designed to integrate all components.
 -   **Check Logging Output**: Pay attention to the `INFO` and `WARNING` messages in the console. They provide insights into the system's operation and alert generation.
 -   **Review Generated Data**: If a task involves generating or modifying data, inspect the relevant files (e.g., `data/servers.json` if you were to modify it, or any CSV exports).
 

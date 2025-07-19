@@ -47,7 +47,7 @@ By completing this exercise, you will:
     pip install -r requirements.txt
     ```
 
-5.  **Open in Your IDE**: Open the `04-load-balancing` directory in your preferred IDE (e.g., VS Code) with the GitHub Copilot extension installed and enabled.
+5.  **Open in Your IDE**: Open the `01-load-balancing` directory in your preferred IDE (e.g., VS Code) with the GitHub Copilot extension installed and enabled.
 
 ## Exercise Overview
 

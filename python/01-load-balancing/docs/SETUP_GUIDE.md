@@ -54,7 +54,7 @@ This command will install `pydantic`, `pandas`, `numpy`, `python-dateutil`, and 
 
 ## 5. Open the Project in Your IDE
 
-Open the `04_load_balancing` directory in your chosen IDE. For VS Code, you can do this by navigating to the directory in your terminal and typing:
+Open the `01_load_balancing` directory in your chosen IDE. For VS Code, you can do this by navigating to the directory in your terminal and typing:
 
 ```bash
 code .

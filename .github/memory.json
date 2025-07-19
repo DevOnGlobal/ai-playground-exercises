@@ -1,0 +1,21 @@
+{"type":"entity","entityType":"codebase","name":"ai-playground-exercises codebase","observations":["Repository contains GitHub Copilot workshop exercises in Python, SQL, and TypeScript.","Python exercises: data pipeline, API aggregation, legacy code modernization.","SQL exercises: schema design, analytics, performance optimization.","TypeScript exercises: REST API, React, JS migration.","Cross-language: testing, security, docs generation.","Python/01-data-pipeline: DataProcessor class, pandas, numpy, cerberus, pytest.","Consistent exercise structure: README, starter code, tests, sample data, instructor solutions.","Testing: test_validation.py, test_transformation.py, integration.py, data_reader.py."]}
+{"type":"entity","entityType":"exercise-group","name":"Python exercises","observations":["Includes data pipeline processing, API aggregation, legacy code modernization."]}
+{"type":"entity","entityType":"exercise-group","name":"SQL exercises","observations":["Includes database schema design, analytics procedures, performance optimization."]}
+{"type":"entity","entityType":"exercise-group","name":"TypeScript exercises","observations":["Includes REST API development, React components, JavaScript migration."]}
+{"type":"entity","entityType":"exercise-group","name":"Cross-language exercises","observations":["Includes testing suites, security audits, documentation generation."]}
+{"type":"entity","entityType":"module","name":"Python/01-data-pipeline","observations":["Contains DataProcessor class and related pipeline code."]}
+{"type":"entity","entityType":"class","name":"DataProcessor","observations":["Core class for data processing pipeline in Python/01-data-pipeline."]}
+{"type":"entity","entityType":"library","name":"pandas","observations":["Used for data manipulation in Python/01-data-pipeline."]}
+{"type":"entity","entityType":"library","name":"numpy","observations":["Used for numerical operations in Python/01-data-pipeline."]}
+{"type":"entity","entityType":"library","name":"cerberus","observations":["Used for validation in Python/01-data-pipeline."]}
+{"type":"entity","entityType":"library","name":"pytest","observations":["Used for testing in Python/01-data-pipeline."]}
+{"type":"entity","entityType":"Person","name":"default_user","observations":["Default user interacting with the ai-playground-exercises repository."]}
+{"type":"relation","from":"ai-playground-exercises codebase","relationType":"contains","to":"Python exercises"}
+{"type":"relation","from":"ai-playground-exercises codebase","relationType":"contains","to":"SQL exercises"}
+{"type":"relation","from":"ai-playground-exercises codebase","relationType":"contains","to":"TypeScript exercises"}
+{"type":"relation","from":"ai-playground-exercises codebase","relationType":"contains","to":"Cross-language exercises"}
+{"type":"relation","from":"Python/01-data-pipeline","relationType":"has core class","to":"DataProcessor"}
+{"type":"relation","from":"Python/01-data-pipeline","relationType":"uses","to":"pandas"}
+{"type":"relation","from":"Python/01-data-pipeline","relationType":"uses","to":"numpy"}
+{"type":"relation","from":"Python/01-data-pipeline","relationType":"uses","to":"cerberus"}
+{"type":"relation","from":"Python/01-data-pipeline","relationType":"uses","to":"pytest"}
